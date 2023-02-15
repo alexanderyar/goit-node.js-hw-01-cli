@@ -52,7 +52,7 @@ async function removeContact(contactId) {
     // writing newData to the JSON
     await fs.writeFile(contactsPath, JSON.stringify(newData, null, 2))
 
-    //check
+    // check
     // console.log(deletedContact)
 
     return deletedContact;
